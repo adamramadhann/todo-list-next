@@ -6,3 +6,7 @@ export type todoType = {
     createdAt: Date,
     updatedAt: Date
 }
+
+export interface TodoClientProps {
+    initialTodos: todoType[]; // atau `data: Todo[]` sesuai nama prop kamu
+}
